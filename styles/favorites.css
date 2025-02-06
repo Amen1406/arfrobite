@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #111;
+    color: #fff;
+}
+
+#homebody{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #000;
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #E5091480;
+    border-radius: 15px;
+}
+
+
+
+.header-buttons{
+    margin: 30px 0 30px 10px;
+    border: 1px solid #E5091480;
+    width: 92%;
+    height: 50px;
+    padding: 2px;
+    border-radius: 40px;
+}
+
+.header-buttons button{
+    height: 50px;
+    width: 45%;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+#restaurants{
+    background: none;
+    color: #fff;
+    margin-left: 28px;
+}
+
+#food-items{
+    background: none;
+    color: #fff;
+}
+
+.active-tab{
+    background: #E5091480 !important; 
+}
+
+
+.dishes-options{
+    color: #fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 317px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.dishes-options-box{
+    width: 180px;
+    height: 90%;
+    background: #252525;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 2.5px solid #14151F
+}
+
+.dishes-options-up{
+  background: #E5091480;
+  width: inherit;
+  height: 35%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.dish-img img{
+    box-shadow: 0px 22px 40px 0px #21B05D33;
+    margin-top: -89px;
+    width: 180px;
+    height: 262px;
+}
+
+.dish-details{
+    margin-top: -88px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+}
+
+.love{
+    margin-left: 135px;
+    margin-top: 18px;
+    background: #252525;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.dish-name{
+    font-size: 22px;
+}
+
+.dish-items{
+    color: #737373;
+    font-size: 16px;
+}
+
+.dish-amount{
+    font-size: 27px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.section-header{
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.restaurant-options{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.restaurant-options-box{
+    width: 350px;
+    height: 300px;
+    background: #252525;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 30px 0px #D3D1D840;
+    position: relative;
+}
+
+.restaurant-ratings{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.rating, .like{
+    margin: 0 15px;
+    background: #252525;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.restaurant-options-box div{
+    width: inherit;
+}
+
+.restaurant-options-box div img{
+    width: inherit;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.restaurant-name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.restaurant-category{
+    margin-top: 15px;
+}
+
+.restaurant-category span{
+    padding: 8px;
+    color: #8A8E9B;
+    background: #E5091480;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.navbar, .sidebar, .right-sidebar{
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    body{
+        position: fixed;
+    }
+
+    #homebody{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 90%;
+        width: 57%;
+        max-height: 100%;
+        background: #000;
+        overflow-y: auto;    
+    }
+    
+    .sidebar{
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 21%;
+        background: #000; 
+        float: left;
+        margin: 0 18px 0 0;
+    }
+    
+    
+    .right-sidebar{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 20%;
+        max-height: 100%;
+        background: #000; 
+        float: right;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    
+    .cart-popup{
+        width: 55%;
+    }
+    
+    .dish{
+        width: 93%;
+        justify-content: space-between;
+        margin: 15px 10px 15px 20px;
+        padding: 8px 12px;
+    }
+
+    .navbar, .sidebar, .right-sidebar{
+        display: block;
+    }
+}

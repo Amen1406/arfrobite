@@ -1,0 +1,10 @@
+Array
+(
+    [action] => callRequest
+    [callRequest] => sign_up
+    [fname] => Eugene
+    [lname] => Anokye
+    [number] => 0599012817
+    [email] => eugeneanokye99@icloud.com
+    [pass] => hello100
+)

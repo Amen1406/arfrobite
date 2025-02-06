@@ -1,0 +1,256 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #111;
+    color: #fff;
+}
+
+#homebody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #000;
+}
+
+.ads {
+    background: linear-gradient(0deg, rgba(229, 9, 20, 0.1), rgba(229, 9, 20, 0.1));
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #E5091461;
+    padding: 10px;
+    display: flex;
+    margin: 15px 5px 0 7px;
+}
+
+.ads span {
+    color: #F41212;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.ads p {
+    margin: 0 0 10px 25px;
+    font-size: 17px;
+}
+
+.navbar, .sidebar, .right-sidebar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E5091480;
+    border-radius: 15px;
+}
+
+#rider_notificationPopup {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.customerInfo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.customerInfo {
+    display: none; 
+}
+
+#pickupBtn,
+#customerInfoBtn,
+#arrived {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#pickupBtn:hover, #arrived:hover {
+    background-color: #CC0000;
+}
+
+#customerInfoBtn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#restaurant-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.restaurant-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.restaurant-details {
+    margin-left: 20px;
+}
+
+.restaurant-details i{
+    cursor: pointer;
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.menu {
+    background-color: #777;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+
+.mapview{
+    width: 97%;
+    height: 350px;
+    padding: 8px 10px;
+    margin: 4px;
+    margin-top: 20px;
+}
+
+#map { 
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+    width:inherit;
+    height: inherit; 
+    margin-top: 20px;
+}
+        
+.marker {
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+
+
+
+@media (min-width: 1200px) {
+    body{
+        position: fixed;
+        background: #888;
+    }
+    
+    #homebody{
+        height: 93%;
+        width: 80%;
+        background: #000;
+        overflow-y: auto;
+        float: right;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    
+    
+    
+    .sidebar{
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 19%;
+        max-height: 100%;
+        background: #000; 
+        float: left;
+        margin: 0 14px 0 0;
+    }
+
+    .navbar, .sidebar, .right-sidebar{
+        display: block;
+    }
+}
+
+
+@media (max-height: 700px) {
+    #homebody{
+        padding-bottom: 100px;
+        height: 80vh;
+    }
+}

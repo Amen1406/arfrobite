@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 50px 15px 0 15px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #111;
+    color: #fff;
+    list-style: none;
+}
+
+
+.delivery span{
+    font-size: 28px;
+}
+
+.locations{
+    margin-top: 10px;
+}
+
+.locations li{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-weight: 400;
+}
+
+.locations li a{
+    color: #E5091480;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.payment{
+    margin-top: 20px;
+}
+
+.payment span{
+    font-size: 28px;
+}
+
+.pay-options{
+    margin: 10px 0;
+}
+
+.pay-options li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.add-pay-btn{
+    padding: 7px;
+    border-radius: 50%;
+    background: none;
+    border: 1px dashed #252525;
+    width: 50px;
+    height: 50px;
+}
+
+.paypal-btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background: #fff;
+}
+.apple-pay-btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background: #fff;
+}
+.mastercard-btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background: #fff;
+}
+
+.option-input{
+    background: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    color: #000;
+    width: 90%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.option-input label{
+    color: #000;
+}
+
+.payment p{
+    font-size: 18px;
+    color: #E5091480;
+    margin: -15px 0 30px 5px;
+}
+
+.results li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-left: -15px;
+    width: 92%;
+}
+
+hr{
+    margin-left: -19px;
+}
+
+.results li span{
+    font-size: 19px;
+}
+
+.amount-total{
+    font-size: 28px;
+}
+
+.proceed-btn {
+    width: 95%;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.proceed-btn button {
+    background: linear-gradient(108.73deg, rgba(249, 31, 31, 0.38) 23.73%, rgba(31, 14, 9, 0.38) 79.34%);
+    box-shadow: 0px 10px 30px 0px #CA42111A;
+    border-radius: 40px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0 0 5px;
+}
+
+.payment-done{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: -41px;
+}
+
+.payment-completed{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.text-content{
+    width: 70%;
+}
+
+.text1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.go-btn {
+    width: 85%;
+}
+
+.go-btn button {
+    background: #E5091461;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0 0 5px;
+}
+
+.navbar, .sidebar, .right-sidebar{
+    display: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #E5091480;
+    border-radius: 15px;
+}
+
+@media (min-width: 1200px) {
+
+    body{
+        position: fixed;
+       padding: 0;
+    }
+
+    #homebody{
+        margin: 0;
+        border: 0;
+        height: 90%;
+        width: 55%;
+        max-height: 100%;
+        background: #000;
+        overflow-y: auto;   
+        padding: 20px 0 20px 20px; 
+    }
+    
+    .sidebar{
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 21%;
+        background: #000; 
+        float: left;
+        margin: 0 18px 0 0;
+    }
+    
+    
+    .right-sidebar{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 20%;
+        max-height: 100%;
+        background: #000; 
+        float: right;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+
+    .navbar, .sidebar, .right-sidebar{
+        display: block;
+    }
+
+    .proceed-btn {
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #000;
+    color: #fff;
+}
+
+
+.track-header{
+    background: #E5091480;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.results{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    color: #BEBEBE;
+    background: #252525;
+    padding: 8px 10px;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.results li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-left: -15px;
+    width: 92%;
+}
+
+
+.results li span{
+    font-size: 19px;
+}
+
+
+
+.dish{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    color: #BEBEBE;
+    background: #252525;
+    padding: 8px 10px;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.dish li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-left: -15px;
+    width: 92%;
+}
+
+
+.dish li h3{
+    margin: 0;
+}
+
+
+.dish li span{
+    font-size: 19px;
+}
+
+
+
+.order-btn {
+    width: 95%;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.delivery_address{
+    margin-left: 20px;
+}
+
+.order-btn button {
+    background:  rgba(249, 31, 31, 0.38);
+    box-shadow: 0px 10px 30px 0px #CA42111A;
+    border-radius: 40px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0 30px 20px;
+}
+
+
+ol.progtrckr {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 4.5em;
+}
+
+ol.progtrckr[data-progtrckr-steps="2"] li { width: 49%; }
+ol.progtrckr[data-progtrckr-steps="3"] li { width: 33%; }
+ol.progtrckr[data-progtrckr-steps="4"] li { width: 24%; }
+ol.progtrckr[data-progtrckr-steps="5"] li { width: 19%; }
+ol.progtrckr[data-progtrckr-steps="6"] li { width: 16%; }
+ol.progtrckr[data-progtrckr-steps="7"] li { width: 14%; }
+ol.progtrckr[data-progtrckr-steps="8"] li { width: 12%; }
+ol.progtrckr[data-progtrckr-steps="9"] li { width: 11%; }
+
+ol.progtrckr li.progtrckr-done {
+    color: #fff;
+    border-bottom: 4px solid yellowgreen;
+    width: 95px;
+}
+ol.progtrckr li.progtrckr-todo {
+    color: silver; 
+    border-bottom: 4px solid silver;
+    width: 95px;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -5.5em;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: yellowgreen;
+    height: 2.2em;
+    width: 2.2em;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 2.2em;
+}
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: black;
+    font-size: 2.2em;
+    bottom: -2.6em;
+}
+
+.mapview{
+    width: 97%;
+    height: 250px;
+    padding: 8px 10px;
+    margin: 4px;
+    margin-top: 20px;
+}
+
+#map { 
+    border-radius: 15px;
+    width:inherit;
+    height: inherit; 
+    margin-top: 20px;
+}
+        
+.marker {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
