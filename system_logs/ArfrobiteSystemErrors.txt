@@ -146,3 +146,21 @@
 [02-Feb-2025 03:51:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
 [02-Feb-2025 03:51:40 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
 [02-Feb-2025 03:51:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(../images.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3
+[19-Feb-2025 21:23:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../images.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\arfrobite\includes\SqlDataCrud.php on line 3

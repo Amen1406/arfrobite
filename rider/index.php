@@ -2,7 +2,7 @@
 
 if (isset($_COOKIE['rider_id'])) {
 
-    header("Location: dashboard/dashboard.php"); 
+    header("Location: dashboard.php"); 
     exit();
 }
 ?>
@@ -13,7 +13,7 @@ if (isset($_COOKIE['rider_id'])) {
    <title>Arfrobite - Sign In</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../arfrobite_css/signup_signin.css">
+    <link rel="stylesheet" href="../styles/signup_signin.css">
 </head>
 <body>
   <div id="loginbody">
@@ -52,6 +52,6 @@ if (isset($_COOKIE['rider_id'])) {
 
 
 
-<script src="../arfrobite_javascript/jquery.min.js"></script>
-<script src="../arfrobite_javascript/signup_signin.js"></script>
+<script src="../javascript/jquery.min.js"></script>
+<script src="../javascript/signup_signin.js"></script>
 </html>

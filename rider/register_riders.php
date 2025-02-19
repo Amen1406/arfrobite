@@ -5,7 +5,7 @@
       <?php include "../arfrobite_includes/metatags.php"; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../arfrobite_css/signup_signin.css">
+    <link rel="stylesheet" href="../styles/signup_signin.css">
 </head>
 <body>
    <div id="loginbody">
@@ -63,6 +63,6 @@
    <div class="go-btn"><button id="go">Go back to Home page</button></div>
 </div>
 </body>
-<script src="../arfrobite_javascript/jquery.min.js"></script>
-<script src="../arfrobite_javascript/signup_signin.js"></script>
+<script src="../javascript/jquery.min.js"></script>
+<script src="../javascript/signup_signin.js"></script>
 </html>
